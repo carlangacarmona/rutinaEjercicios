@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Friend</title>
+    <link rel="stylesheet" href="assets/css/estilos.css">
+</head>
+<body>
+    <div class="container">
+        <div class="image-container">
+            <img src="assets/img/pesas.jpeg" alt="Pesas del Gimnasio">
+        </div>
+        <div class="contenido-form">
+            <h1>Creador de Rutinas de Ejercicio</h1>
+            <p>Ejercicios a probar: sentadillas, bancos, peso muerto, prensas</p>
+            <label for="semanas">¿Cuántas semanas quieres hacer ejercicio?</label>
+            <input type="number" id="semanas" min="1" max="12" placeholder="Ingrese cantidad semanas">
+
+            <label for="dias">¿Cuántos días a la semana puedes hacer ejercicio?</label>
+            <input type="number" id="dias" min="1" max="7" placeholder="Ingrese cantidad días">
+
+            <button id="btnGenerar">¡MUÉSTRAME MI NUEVA RUTINA!</button>
+            <p class="texto-aviso">Abrir la consola del navegador para ver el resultado al presionar el botón</p>
+        </div>
+    </div>
+
+    <script src="assets/js/logica.js"></script>
+</body>
+</html>
